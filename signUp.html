@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form Đăng ký</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">   
+    <link rel='stylesheet' type='text/css' media='screen' href='signUp.css'>
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><img src="Images/shop.png" width="50px"></a> 
+            <div class="header_text">
+                <a href="#">HQH</a>
+            </div>
+        </div>
+    </header>
+    <div class="dieu-huong">
+        <p>Trang chủ &gt; Đăng ký</p>
+    </div>
+
+    <form action="" id="form_DangKy">
+        <h2 style="text-align: center;">Đăng ký</h2>
+        <div class="cover">
+            <div class="cot_trai">
+                <label for="ten_dn" class="nhap1">Tên đăng nhập</label>
+                <input type="text" id="ten_dn" class="nhap2" name="ten_dn" placeholder="Tên đăng nhập/email/số điện thoại">
+                <div class="error-msg" id="error-ten-dn"></div>
+                <label for="ten_cua_ban" class="nhap1">Tên của bạn</label>
+                <input type="text" id="ten_cua_ban" class="nhap2" name="ten_cua_ban" placeholder="Nhập tên của bạn">
+                <div class="error-msg" id="error-ten-cua_ban"></div>
+                <label for="ho_cua_ban" class="nhap1">Họ của bạn</label>
+                <input type="text" id="ho_cua_ban" class="nhap2" name="ho_cua_ban" placeholder="Nhập họ của bạn">
+                <div class="error-msg" id="error-ho-cua-ban"></div>
+                <label for="email" class="nhap1">Email</label>
+                <input type="text" id="email" class="nhap2" name="email" placeholder="Nhập email của bạn">
+                <div class="error-msg" id="error-email"></div>
+            </div>
+            <div class="cot_phai">
+                <label for="sdt" class="nhap1">Số điện thoại</label>
+                <input type="text" id="sdt" class="nhap2" name="sdt" placeholder="Nhập số điện thoại của bạn">
+                <label for="address" class="nhap1">Địa chỉ</label>
+                <input type="text" id="address" class="nhap2" name="address" placeholder="Nhập địa chỉ của bạn">
+                <label for="password" class="nhap1">Mật khẩu</label>
+                <input type="text" id="password" class="nhap2" name="password" placeholder="Nhập mật khẩu của bạn">
+                <label for="nhap_lai_password" class="nhap1">Nhập lại mật khẩu</label>
+                <input type="text" id="nhap_lai_password" class="nhap2" name="nhap_lai_password" placeholder="Nhập lại mật khẩu của bạn">
+            </div>
+        </div>
+        <div class="cover2">
+            <button type="button" id="signUp_button" class="signUp" style="cursor: pointer;">Tạo tài khoản</button>
+        </div>       
+    </form>
+    <i class="bi bi-question-circle-fill bieuTuongHoi" style="cursor: pointer;"></i>
+    
+    <script>
+        document.getElementById("signUp_button").addEventListener("click", function() {
+        // Hiển thị thông báo
+        alert("Bạn đã tạo tài khoản thành công!");
+        window.location.href = "signIn.html";
+        });
+    </script>   
+    <script src='signUp.js'></script>
+</body>
+</html>

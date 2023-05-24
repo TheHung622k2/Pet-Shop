@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #c51c1d;
+}
+.logo {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.logo img {
+  margin: 5px 0px 5px 100px;
+}
+.header_text a {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 25px;
+  margin-left: 10px;
+}
+.logo a {
+  text-decoration: none;
+}
+
+.dieu-huong {
+  background-color: rgb(247, 247, 247);
+  margin: 10px auto;
+  padding: 5px 20px;
+  width: 85%;
+}
+
+#form_DangKy {
+    background-color: #f7f7f7;
+    margin: 10px auto;
+    padding: 5px 20px;
+    width: 85%;
+    height: 450px;
+}
+
+.nhap1 {
+    display: block;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.nhap2 {
+    display: block;
+    margin-top: 8px;
+    width: 380px;
+    height: 30px;
+    border: 3px solid #ccc;
+    padding: 5px;
+}
+.nhap2::placeholder {
+    color: #999; 
+    opacity: 0.7; 
+}
+
+.signUp {
+  margin-top: 20px;
+  width: 930px;
+  height: 40px;
+  background-color: #c51c1d;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 3px solid #d4cac6;
+}
+
+#form_DangKy .cot_trai {
+    float: left;
+}
+#form_DangKy .cot_phai {
+    float: left;
+
+}
+
+.cover {
+  display:  flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cover2 {
+  text-align: center;
+}
+
+.bieuTuongHoi {
+  position: absolute; /* Đặt vị trí tuyệt đối */
+  bottom: 10px; /* Điều chỉnh vị trí theo ý muốn */
+  right: 10px;
+  font-size: 24px; /* Điều chỉnh kích thước biểu tượng theo ý muốn */
+}

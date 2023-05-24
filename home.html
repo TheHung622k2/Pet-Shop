@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pet Shop HQH</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='home.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src='main.js'></script>
+</head>
+<body>
+  <header>
+    <div class="d-flex mb-3">
+        <div class="p-2 ms-5"><a href="#"><img src="images/logo.jpg" width="100px"></a></div>
+        <div class="pe-2 pt-2 fs-1 fw-bold text-light ms-2 mt-2"><p id="logo">HQH</p></div>
+        <div class="ms-auto p-2">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end position-absolute top-0 end-0 me-5 mt-2">
+                <button id="dn" class="btn btn-primary bg-danger border border-5 border-danger-subtle rounded-pill me-5 mt-3" type="button">
+                    <i class="bi bi-person-fill"></i> Đăng nhập
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-2 mx-5 pb-2">
+        <div class="col-md">
+          <div class="form-floating me-1" style="width: 68rem;">
+            <input type="email" class="form-control" id="floatingInputGrid" placeholder="search" value="">
+            <label for="floatingInputGrid"><i class="bi bi-search"></i> Search</label>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="form-floating" style="width: 20rem;">
+            <select class="form-select" id="floatingSelectGrid">
+              <option selected>Other</option>
+              <option value="1">Thú Cưng Khác</option>
+              <option value="2">Chó</option>
+              <option value="3">Mèo</option>
+              <option value="4">Chim</option>
+              <option value="5">Hamster</option>
+              <option value="6">Thỏ</option>
+              <option value="7">Cá</option>
+              <option value="8">Nhím</option>
+              <option value="9">Thức Ăn Thú Cưng</option>
+              <option value="10">Đồ Chơi Thú Cưng</option>
+              <option value="11">Phụ Kiện Thú Cưng</option>
+              <option value="12">Sản Phẩm Chăm Sóc Thú Cưng</option>
+            </select>
+            <label for="floatingSelectGrid">Select</label>
+          </div>
+        </div>
+    </div>
+  </header>
+
+  <div class="banner">
+    <div class="my-3 d-flex justify-content-center">
+      <img class="ms-5 me-3" src="images/bn1.jpg" style="width: 100rem;">
+      <div class="the me-5">
+        <img class="mb-4" src="images/bn2.jpg" style="width: 32rem;">
+        <img src="images/bn3.jpg" style="width: 32rem;">   
+      </div>
+    </div>
+  </div>
+
+  <p class="shopping-1"><b>!</b></p>
+  <div class="ms-3 shopping">
+    <a href="#" class="link-light link-offset-2 link-underline-opacity-0"><i class="bi bi-cart4 d-flex justify-content-end"></i></a>
+  </div>
+
+  <div class="row justify-content-start justify-content-center text-center">
+    <div class="col-1 mx-3">
+      <img src="images/3.png" alt="">
+      <p>Chó</p>
+    </div>
+    <div class="col-1 mx-3">
+      <img src="images/4.png" alt="">
+      <p>Mèo</p>
+    </div>
+    <div class="col-1 mx-3">
+      <img src="images/5.png" alt="">
+      <p>Chim</p>
+    </div>
+    <div class="col-1 mx-3">
+      <img src="images/6.png" alt="">
+      <p>Hamster</p>
+    </div>
+    <div class="col-1 mx-3">
+      <img src="images/7.png" alt="">
+      <p>Thỏ</p>
+    </div>
+    <div class="col-1 mx-3">
+      <img src="images/8.png" alt="">
+      <p>Cá</p>
+    </div>
+    <div class="col-1 mx-3">
+      <img src="images/16.png" alt="">
+      <p>Nhím</p>
+    </div>
+    <div class="col-1 mx-3">
+      <img src="images/1.png" alt="">
+      <p>Thú Khác</p>
+    </div>
+  </div>
+
+  <div class="row justify-content-start justify-content-center text-center">
+    <div class="col-1 m-3">
+      <img src="images/2.png" alt="">
+      <p>Thức Ăn</p>
+    </div>
+    <div class="col-1 m-3">
+      <img src="images/9.png" alt="">
+      <p>Đồ Chơi</p>
+    </div>
+    <div class="col-1 m-3">
+      <img src="images/10.png" alt="">
+      <p>Sản Phẩm Chăm Sóc</p>
+    </div>
+    <div class="col-1 m-3">
+      <img src="images/11.png" alt="">
+      <p>Thực Phẩm Dinh Dưỡng</p>
+    </div>
+    <div class="col-1 m-3">
+      <img src="images/12.png" alt="">
+      <p>Phụ Kiện Thú Cưng</p>
+    </div>
+    <div class="col-1 m-3">
+      <img src="images/13.png" alt="">
+      <p>Dịch Vụ Chăm Sóc</p>
+    </div>
+    <div class="col-1 m-3">
+      <img src="images/14.png" alt="">
+      <p>Dịch Vụ Y Tế</p>
+    </div>
+    <div class="col-1 m-3">
+      <img src="images/15.png" alt="">
+      <p>Cứu Hộ Thú Cưng</p>
+    </div>
+  </div>
+
+  <div class="dx">
+    <h1 class="ms-5 ps-2"><b>HQH</b><span>&ensp; ĐỀ XUẤT</span></h1>
+  </div>
+
+  <div class="row justify-content-start justify-content-center text-center my-3">
+    <div class="col-2 me-5">
+      <div class="card" style="width: 18rem;">
+        <img src="images/1 (9).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Thỏ Beveren</h5>
+          <h4 class="text-danger">3.600.000 đ</h4>
+          <p class="card-text">Dễ thương vô đối, cute không lối thoát, giá cả phải chăng</p>
+          <a href="#" class="btn btn-light">Chi tiết</a>
+          <a href="#" class="btn btn-danger">Mua ngay <i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 mx-3">
+      <div class="card" style="width: 18rem;">
+        <img src="images/1 (8).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mèo Anh lông dài</h5>
+          <h4 class="text-danger">5.000.000 đ</h4>
+          <p class="card-text">Dễ thương vô đối, cute không lối thoát, giá cả phải chăng</p>
+          <a href="#" class="btn btn-light">Chi tiết</a>
+          <a href="#" class="btn btn-danger">Mua ngay <i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 ms-5 me-3">
+      <div class="card" style="width: 18rem;">
+        <img src="images/1 (7).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Hamster Campell</h5>
+          <h4 class="text-danger">800.000 đ</h4>
+          <p class="card-text">Dễ thương vô đối, cute không lối thoát, giá cả phải chăng</p>
+          <a href="#" class="btn btn-light">Chi tiết</a>
+          <a href="#" class="btn btn-danger">Mua ngay <i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 mx-5">
+      <div class="card" style="width: 18rem;">
+        <img src="images/1 (6).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cá Thần Tiên</h5>
+          <h4 class="text-danger">100.000 đ</h4>
+          <p class="card-text">Dễ thương vô đối, cute không lối thoát, giá cả phải chăng</p>
+          <a href="#" class="btn btn-light">Chi tiết</a>
+          <a href="#" class="btn btn-danger">Mua ngay <i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-start justify-content-center text-center">
+    <div class="col-2 me-5">
+      <div class="card" style="width: 18rem;">
+        <img src="images/1 (4).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Chó Lhasa Apso</h5>
+          <h4 class="text-danger">8.000.000 đ</h4>
+          <p class="card-text">Dễ thương vô đối, cute không lối thoát, giá cả phải chăng</p>
+          <a href="#" class="btn btn-light">Chi tiết</a>
+          <a href="#" class="btn btn-danger">Mua ngay <i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 mx-3">
+      <div class="card" style="width: 18rem;">
+        <img src="images/1 (5).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Chim Baeolophus Bicoloer</h5>
+          <h4 class="text-danger">1.000.000 đ</h4>
+          <p class="card-text">Dễ thương vô đối, cute không lối thoát, giá cả phải chăng</p>
+          <a href="#" class="btn btn-light">Chi tiết</a>
+          <a href="#" class="btn btn-danger">Mua ngay <i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 ms-5 me-3">
+      <div class="card" style="width: 18rem;">
+        <img src="images/1 (2).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Miniature Siberian Husky</h5>
+          <h4 class="text-danger">11.500.000 đ</h4>
+          <p class="card-text">Dễ thương vô đối, cute không lối thoát, giá cả phải chăng</p>
+          <a href="#" class="btn btn-light">Chi tiết</a>
+          <a href="#" class="btn btn-danger">Mua ngay <i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 mx-5">
+      <div class="card" style="width: 18rem;">
+        <img src="images/1 (3).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mèo RagaMuffin</h5>
+          <h4 class="text-danger">7.000.000 đ</h4>
+          <p class="card-text">Dễ thương vô đối, cute không lối thoát, giá cả phải chăng</p>
+          <a href="#" class="btn btn-light">Chi tiết</a>
+          <a href="#" class="btn btn-danger">Mua ngay <i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-start justify-content-center text-center my-3">
+    <div class="col-2 me-5">
+      <div class="card" style="width: 18rem;">
+        <img src="images/1 (0).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mèo Anh lông ngắn</h5>
+          <h4 class="text-danger">7.600.000 đ</h4>
+          <p class="card-text">Dễ thương vô đối, cute không lối thoát, giá cả phải chăng</p>
+          <a href="#" class="btn btn-light">Chi tiết</a>
+          <a href="#" class="btn btn-danger">Mua ngay <i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 mx-3">
+      <div class="card" style="width: 18rem;">
+        <img src="images/1 (1).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sóc Paraxerus Poensis</h5>
+          <h4 class="text-danger">3.000.000 đ</h4>
+          <p class="card-text">Dễ thương vô đối, cute không lối thoát, giá cả phải chăng</p>
+          <a href="#" class="btn btn-light">Chi tiết</a>
+          <a href="#" class="btn btn-danger">Mua ngay <i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 ms-5 me-3">
+      <div class="card" style="width: 18rem;">
+        <img src="images/1 (10).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nhím Mesechinus</h5>
+          <h4 class="text-danger">2.750.000 đ</h4>
+          <p class="card-text">Dễ thương vô đối, cute không lối thoát, giá cả phải chăng</p>
+          <a href="#" class="btn btn-light">Chi tiết</a>
+          <a href="#" class="btn btn-danger">Mua ngay <i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 mx-5">
+      <div class="card" style="width: 18rem;">
+        <img src="images/1 (7).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Hamster Golden</h5>
+          <h4 class="text-danger">1.500.000 đ</h4>
+          <p class="card-text">Dễ thương vô đối, cute không lối thoát, giá cả phải chăng</p>
+          <a href="#" class="btn btn-light">Chi tiết</a>
+          <a href="#" class="btn btn-danger">Mua ngay <i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex justify-content-center my-3">
+    <img class="me-5" src="images/bn5.jpg" alt="" style="width: 38rem;">
+    <img src="images/bn4.jpg" alt="" style="width: 38rem;">
+  </div>
+
+  <div class="dx d-flex mb-3">
+    <div class="sanpham pt-2 mt-2 flex-grow-1 text-start ms-5"><h3>SẢN PHẨM NỔI BẬT</h3></div>
+    <div class="sanpham pe-2 mt-4 fs-5 border-end"><a href="#" class="link-dark link-offset-2 link-underline-opacity-0">Thức Ăn</a></div>
+    <div class="sanpham px-2 mt-4 fs-5 border-end"><a href="#" class="link-dark link-offset-2 link-underline-opacity-0">Phụ kiện</a></div>
+    <div class="sanpham px-2 mt-4 fs-5 border-end"><a href="#" class="link-dark link-offset-2 link-underline-opacity-0">Đồ Chơi</a></div>
+    <div class="sanpham px-2 mt-4 fs-5 me-5"><a href="#" class="link-dark link-offset-2 link-underline-opacity-0">Sữa Tắm</a></div>
+  </div>
+
+  <div class="row justify-content-start justify-content-center text-center">
+    <div class="col-2 me-5">
+      <div class="card" style="width: 18rem;">
+        <img src="images/sp1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Purina Beneful Medleys</h5>
+          <h4 class="text-danger">468.000 đ</h4>
+          <a href="#" class="btn btn-light">Chi tiết</a>
+          <a href="#" class="btn btn-danger">Mua ngay <i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 mx-3">
+      <div class="card" style="width: 18rem;">
+        <img src="images/sp2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pedigree Puppy</h5>
+          <h4 class="text-danger">215.000 đ</h4>
+          
+          <a href="#" class="btn btn-light">Chi tiết</a>
+          <a href="#" class="btn btn-danger">Mua ngay <i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 ms-5 me-3">
+      <div class="card" style="width: 18rem;">
+        <img src="images/sp3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BUDDY Đồ Tươi</h5>
+          <h4 class="text-danger">315.000 đ</h4>
+          
+          <a href="#" class="btn btn-light">Chi tiết</a>
+          <a href="#" class="btn btn-danger">Mua ngay <i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 mx-5">
+      <div class="card" style="width: 18rem;">
+        <img src="images/sp4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lồng GIRO</h5>
+          <h4 class="text-danger">590.000 đ</h4>
+          
+          <a href="#" class="btn btn-light">Chi tiết</a>
+          <a href="#" class="btn btn-danger">Mua ngay <i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-start justify-content-center text-center my-3">
+    <div class="col-2 me-5">
+      <div class="card" style="width: 18rem;">
+        <img src="images/sp5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sữa tắm chó mèo Olive</h5>
+          <h4 class="text-danger">45.000 đ</h4>
+          
+          <a href="#" class="btn btn-light">Chi tiết</a>
+          <a href="#" class="btn btn-danger">Mua ngay <i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 mx-3">
+      <div class="card" style="width: 18rem;">
+        <img src="images/sp8.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sữa tắm chó mèo Yoko</h5>
+          <h4 class="text-danger">50.000 đ</h4>
+          
+          <a href="#" class="btn btn-light">Chi tiết</a>
+          <a href="#" class="btn btn-danger">Mua ngay <i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 ms-5 me-3">
+      <div class="card" style="width: 18rem;">
+        <img src="images/sp6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Đồ Chơi Bóng 7 Màu</h5>
+          <h4 class="text-danger">167.000 đ</h4>
+          
+          <a href="#" class="btn btn-light">Chi tiết</a>
+          <a href="#" class="btn btn-danger">Mua ngay <i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 mx-5">
+      <div class="card" style="width: 18rem;">
+        <img src="images/sp7.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Đồ Chơi Cần Câu Mèo</h5>
+          <h4 class="text-danger">30.000 đ</h4>
+          
+          <a href="#" class="btn btn-light">Chi tiết</a>
+          <a href="#" class="btn btn-danger">Mua ngay <i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="xemthem">
+    <div class="d-grid gap-2 col-2 mx-auto">
+      <button class="btn btn-secondary py-2" type="button">XEM THÊM</button>
+    </div>
+  </div>
+
+  <hr class="mx-5 mt-5">
+
+  <div class="text-start">
+    <div class="ms-5" style="color: #c51c1d;"> <h2>GIỚI THIỆU</h2></div>
+    <div class="ms-5"> <h4>PET SHOP HQH – MUA SẮM VÀ BÁN HÀNG ONLINE ĐƠN GIẢN, NHANH CHÓNG VÀ AN TOÀN!</h4></div>
+    <br>  
+    <p class="mx-5 fs-5">&ensp;&ensp;&ensp;Nếu bạn đang tìm kiếm một nền tảng để mua và bán hàng trực tuyến đáng tin cậy thì HQH sẽ trở thành một sự lựa chọn hiệu quả dành cho bạn! <br>
+      &ensp;&ensp;&ensp;Bản chất của HQH là một ecommerce platform – nền tảng trang web thương mại điện tử. Nền tảng này cho phép người mua và người bán dễ dàng tương tác, trao đổi thông tin về các sản phẩm được bày bán và chương trình khuyến mãi của shop. Nhờ vào sự đa năng của nền tảng này, HQH tự tin trở thành một website mua bán thú cưng nhanh chóng, tiện lợi và đơn giản. Bạn có thể liên hệ trực tiếp với cửa hàng để trao đổi về mặt hàng mà bạn quan tâm hoặc tự do tìm kiếm, so sánh giá cả của các cửa hàng uy tín trên website của HQH. <br>
+      &ensp;&ensp;&ensp;Đặc biệt hơn, HQH đem đến cho bạn một môi trường tiềm năng để trở thành một nhà bán hàng thành công chỉ với vài thao tác đơn giản trên nền tản web. Người bán hàng có thể tùy chọn tính năng cho cửa hàng, đồng thời lên kế hoạch cho các chương trình khuyến mãi với giá cả hấp dẫn để thu hút khách hàng tiềm năng. Chỉ cần đăng nhập vào trang người bán, bạn có thể phân loại sản phẩm, theo dõi đơn hàng, chăm sóc khách hàng và cập nhật ngay các hoạt động của Petee một cách dễ dàng và hiệu quả!
+    </p>
+  </div>
+  
+  <hr class="mb-0">
+
+  <footer>
+    <div class="row justify-content-start justify-content-center text-center">
+      <div class="col-3 pt-3">
+        <h3 class="border-primary border-4 border-bottom pb-2 mx-5">Hỗ trợ</h3>
+        <p>Hỗ trợ khách hàng&colon; hotro&commat;hqh&period;com</p>
+        <p>Báo lỗi bảo mật&colon; security&commat;hqh&period;vn</p>
+      </div>
+      <div class="col-3 pt-3">
+        <h3 class="border-primary border-4 border-bottom pb-2 mx-3">Chăm sóc khách hàng</h3>
+        <p>Liên hệ hỗ trợ</p>
+        <p>Chính sách đổi hàng</p>
+        <p>Hướng dẫn mua hàng</p>
+        <p>Quan điểm kinh doanh</p>
+      </div>
+      <div class="col-3 pt-3">
+        <h3 class="border-primary border-4 border-bottom pb-2 mx-5">Chính sách</h3>
+        <p>Chính sách vận chuyển</p>
+        <p>Chính sách đổi trả</p>
+        <p>Chính sách bảo hành</p>
+      </div>
+      <div class="col-3 pt-3">
+        <h3 class="border-primary border-4 border-bottom pb-2 mx-5 mb-3">Đăng kí nhận tin</h3>
+        <form class="form-floating me-3">
+          <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com" value="">
+          <label for="floatingInputValue">Email</label>
+        </form>
+        <div>
+          <button class="btn btn-primary mt-1 me-3" style="width: 22rem;" type="button">Đăng ký</button>
+        </div>
+        <div class="flex justify-content-center my-2 me-3">
+          <img src="images/card1.jpg" style="width: 100px;">
+          <img class="mx-3" src="images/card2.jpg" style="width: 100px;">
+          <img src="images/card3.jpg" style="width: 100px;">
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-end mx-2 fs-5">
+      <a href="https://www.facebook.com/" class="link-dark link-offset-2 link-underline-opacity-0"><i class="bi bi-facebook"></i></a>
+      <div class="mx-2"><a href="https://www.instagram.com/" class="link-dark link-offset-2 link-underline-opacity-0"><i class="bi bi-instagram"></i></a></div>
+      <a href="https://www.twitter.com/" class="link-dark link-offset-2 link-underline-opacity-0"><i class="bi bi-twitter"></i></a>
+      <div class="mx-2"><a href="https://www.youtube.com/" class="link-dark link-offset-2 link-underline-opacity-0"><i class="bi bi-youtube"></i></a></div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('dn').addEventListener('click', function () {
+    window.open('signIn.html', '_self');
+    });
+  </script>
+</body>
+</html>

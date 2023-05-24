@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form Đăng Nhập</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='signIn.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">   
+    <link rel="stylesheet" href="https://unpkg.com/keyboard-css@1.2.4/dist/css/main.min.css" />  
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><img src="Images/shop.png" width="50px"></a> 
+            <div class="header_text">
+                <a href="#">HQH</a>
+            </div>
+        </div>
+    </header>
+    <div class="dieu-huong">
+        <p>Trang chủ &gt; Đăng nhập</p>
+    </div>
+    <div class="bieuMau">
+        <form id="loginForm" action="">
+            <h2>Đăng nhập</h2>
+            <label for="ten_dn" class="nhap1">Tên đăng nhập </label>
+            <input type="text" id="ten_dn" class="nhap2" name="ten_dn" placeholder="Tên đăng nhập/Email/Số điện thoại">
+            <div class="error-msg" id="error-ten-dn"></div>
+            <label for="password" class="nhap1">Mật khẩu </label>
+            <input type="password" id="password" class="nhap2" placeholder="Nhập mật khẩu">
+            <div class="error-msg" id="error-password"></div>
+            <button type="button" id="loginButton" class="signIn" style="cursor: pointer;">Đăng nhập</button>
+            <p class="forgotPassword"><a href="#" style="text-decoration: none;">Quên mật khẩu?</a></p>
+            <p class="signUp">Bạn mới biết đến shop? &nbsp;&nbsp;<span><a href="#" id="dk" style="text-decoration: none; font-weight: bold;">ĐĂNG KÝ</a></span></p>
+        </form>
+    </div>
+    <div class="anhmeo">
+        <img src="images/anhmeo.jpg">
+        <div class="text-overlay">
+            <h2 style="color: #c51d1e;">SHOP THÚ CƯNG HQH</h2>
+            <p style="color: #c51d1e; text-align: center;">Đăng ký nhận ưu đãi về các chương trình khuyến mãi siêu Hot của HQH</p>           
+        </div>      
+    </div>
+    <i class="bi bi-question-circle-fill bieuTuongHoi" style="cursor: pointer;"></i>
+   
+
+    <script src="signIn.js"></script>
+
+    <!-- Mo form dang ky -->
+    <script>
+        document.getElementById('dk').addEventListener('click', function () {
+        window.open('signUp.html', '_self');
+    });
+    </script>
+</body>
+</html>
